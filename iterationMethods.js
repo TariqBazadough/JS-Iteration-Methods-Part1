@@ -37,6 +37,9 @@ const filteredAndTripled = (numbers) => {
 // 1) Using `logger` function log every element in an array
 function logger(array) {
   // write your code here...
+  array.forEach((element) => {
+    console.log(element);
+  });
 }
 
 // 2) using `toCelsius` function return an array of temperatures in Celsius
