@@ -4,6 +4,7 @@ const numbers = [10, 13, 20, 25, 38, 35, 40];
 // 1) Using `greaterThanTwentyFive` function that returns a new array containing numbers that are greater than or equal to 25.
 const greaterThanTwentyFive = (numbers) => {
   // write your code here...
+  return numbers.filter((num) => num >= 25);
 };
 
 // 2) Using `divisibleByFive` function return a new array containing numbers that are divisible by 5.
@@ -46,6 +47,7 @@ function toCelsius(temperatures) {
 // 3) using `hottestDays` function return an array of temperatures that exceed the threshold
 function hottestDays(temperatures, threshold) {
   // write your code here...
+  return temperatures.filter((temp) => temp > threshold);
 }
 
 // 4) Using `logHottestDays` function log temperatures that exceed the threshold to the console IN DEGREES CELSIUS  (hint: you can combine all previous functions)
